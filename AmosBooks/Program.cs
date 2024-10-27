@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using AmosBooks.Data;
+using AmosBooks.DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
