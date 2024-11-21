@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="form-floating py-2 col-12">
-                    <input asp-for="Description" class="form-control border-0 shadow"/>
+                    <textarea asp-for="Description" class="form-control border-0 shadow"></textarea>
                     <label asp-for="Description" class="ms-2"></label>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
@@ -59,6 +59,7 @@
                     <label asp-for="Price100" class="ms-2"></label>
                     <span asp-validation-for="Price100" class="text-danger"></span>
                 </div>
+                
                 <div class="row">
                     <div class="col-6">
                         <button type="submit" class="btn btn-primary form-control">Save</button>
